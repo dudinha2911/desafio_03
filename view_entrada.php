@@ -67,6 +67,11 @@
             <input type="number" name="quantpipoca" id="quantidade" placeholder="Quantidade pipoca...">
             <br><br><br>
             <button type="submit">Enviar</button>
+            <hr>
+            <footer>
+                <p style="color: #fcffc7; text-align: center;">&copy; 2026 Sétima Arte. Todos os direitos reservados.</p>
+                <p style="color: #fcffc7; text-align: center;">&copy; SENAI - Serviço Nacional de Aprendizagem Industrial.</p>
+            </footer>
 
         </form>
 

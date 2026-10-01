@@ -17,41 +17,55 @@
 <main>
     <div style ="text-align: center;">
         <img style="width: 300px; height: 400px;" src="<?= $imagem?>" alt="Imagem do filme">
-        <p style= "color: white"><b> Descrição do filme:</b> <?= $descricao ?></p>
+        <p style= "color: white"><b style="color: #fcffc7;"> Descrição do filme:</b> <?= $descricao ?></p>
+        <br>
     </div>
     <h2 style="background-color: #fcffc7; text-align: center;">Resumo da Compra</h2>
-    <p style= "color: white"><b>Nome: </b> <?=  $nome ?></p>
-    <p style= "color: white"><b>Idade: </b> <?=  $idade ?> anos</p>
-<p style= "color: white"><b>Estudante: </b> <?=  $estudante ?></p>
-<p style= "color: white"><b>Entrada: </b> <?=  $entrada ?></p>
-<hr>
-<p style= "color: white"><b>Filme: </b> <?=  $nomeFilme ?></p>
+<article style="color: #fcffc7; text-align: center;">Confira os detalhes da sua compra e aproveite a experiência cinematográfica!
+    <br>
+    <br>
+    <p style= "color: white"><b style="color: #fcffc7;">Nome: </b> <?=  $nome ?></p>
+    <p style= "color: white"><b style="color: #fcffc7;">Idade: </b> <?=  $idade ?> anos</p>
+    <p style= "color: white"><b style="color: #fcffc7;">Estudante: </b> <?=  $estudante ?></p>
+    <p style= "color: white"><b style="color: #fcffc7;">Entrada: </b> <?=  $entrada ?></p>
+    <br>
+    <hr>
+    <br>
+    <p style= "color: white"><b style="color: #fcffc7;">Filme: </b> <?=  $nomeFilme ?></p>
 <p style= "color: white">
-    <b>Quantidade de ingressos: </b>
+    <b style="color: #fcffc7;">Quantidade de ingressos: </b>
     <?=  $quantidade ?>
 </p>
 <p style= "color: white">
-    <b>Valor dos ingressos: </b>
+    <b style="color: #fcffc7;">Valor dos ingressos: </b>
     R$ <?=  number_format($precoFinalIngresso, 2, ",", "."); ?>
 </p>
-<h3 style="background-color: #fcffc7; text-align: center;">🍿 Produtos</h3>
+<br>
+</article>
+<h3 style="background-color: #fcffc7; text-align: center;">🍿 Produtos 🍿</h3>
+<br>
+<article style="text-align: center;">
 <p style= "color: white">
-    <b>Quantidade de pipocas: </b>
+    <b style="color: #fcffc7;">Quantidade de pipocas: </b>
     <?=  $quantidadePipoca; ?>
 </p>
 <p style= "color: white">
-    <b>Valor das pipocas: </b>
+    <b style="color: #fcffc7;">Valor das pipocas: </b>
     R$ <?=  number_format($precoFinalPipoca, 2, ",", "."); ?>
 </p>
+<br>
 <hr>
+<br>
 <p style= "color: white">
-    <b>Total sem desconto: </b>
+    <b style="color: #fcffc7;">Total sem desconto: </b>
     R$ <?= number_format($precoFinalCompra, 2, ",", "."); ?>
 </p>
 <p style= "color: white">
-    <b>Desconto: </b>
+    <b style="color: #fcffc7;">Desconto: </b>
     <?=  $estudante == 'Sim' ? '10%' : '0%'; ?>
 </p>
+<br>
+</article>
 <h2 style="background-color: #fcffc7; text-align: center;">
     Total final:
     R$ <?= number_format($precoFinalCompra, 2, ",", "."); ?>
@@ -62,9 +76,15 @@
 
 <?php } else { ?>
 
-    <p style= "color: white">🍿 Bom filme na Sétima Arte!</p>
+    <p style= "color: white; text-align: center;">🍿 Bom filme na Sétima Arte!</p>
+    <hr>
 
 <?php } ?>
+
+            <footer>
+                <p style="color: #fcffc7; text-align: center;">&copy; 2026 Sétima Arte. Todos os direitos reservados.</p>
+                <p style="color: #fcffc7; text-align: center;">&copy; SENAI - Serviço Nacional de Aprendizagem Industrial.</p>
+            </footer>
     </main>
 </body>
 </html>
