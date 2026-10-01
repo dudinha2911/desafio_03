@@ -81,7 +81,7 @@ if($estudante == "Sim"){
 
 $precoFinalCompra = $precoFinalCompra - $desconto;
 
-if($idade < 18){
+if($idade < 14){
     $entrada = 'Entrada Negada!';
 }else{
     $entrada = 'Entrada liberada!';
