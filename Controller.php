@@ -60,7 +60,6 @@ $imagem = "";
 foreach($filmes as $filme){
     if($filme['nomefilm'] == $_POST['filme']){
         $nomeFilme = $filme['filme'];
-        $sala = $filme['sala'];
         $descricao = $filme['descricao'];
         $imagem = $filme['imagem'];
     }
@@ -81,12 +80,11 @@ if($estudante == "Sim"){
 
 $precoFinalCompra = $precoFinalCompra - $desconto;
 
-if($idade < 14){
+if($idade < 12){
     $entrada = 'Entrada Negada!';
 }else{
     $entrada = 'Entrada liberada!';
 }
 // Inclui a view para exibição
 require_once "view_saida.php";
-
 ?>

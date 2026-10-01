@@ -7,7 +7,7 @@
     <link rel="icon" href="https://cdn3d.iconscout.com/3d/premium/thumb/clapper-box-3d-icon-download-in-png-blend-fbx-gltf-file-formats--movie-clapperboard-communication-pack-network-icons-6184994.png">
 </head>
 </head>
-<body style="background-color:#2b0021 ;">
+<body style="background-color:#1b0a26 ;">
     <header>
         <h3 style="background-color: #fcffc7; text-align: center;">🎬Cinema - Sétima Arte🎬</h3>
         <h1 style="text-align: center;color: white;"">Bem-Vindo á Sétima Arte</h1>
@@ -18,12 +18,13 @@
         <h2 style="background-color:#fcffc7; text-align: center;">Quem nós somos</h2>
         <p style="color: white; text-align: center;">No Sétima Arte, ir ao cinema é mais do que assistir a um filme: é viver uma experiência única. Combinamos som e imagem de alta tecnologia, conforto absoluto e os melhores lançamentos para que você sinta cada emoção na tela grande!.</p>
         <div style="text-align: center;">
-            <img style="width: 440px; height: 240px;" src="image.png" alt="logo">
+            <img style="width: 440px; height: 240px;" src="Gemini_Generated_Image_ubchl2ubchl2ubch.jpg" alt="logo">
             <figcaption style="color: white;">Logo - Sétima Arte</figcaption>
         </div>
         <hr>
         <h2 style="background-color:#fcffc7; text-align: center;">Compre seu ingresso aqui!</h2>
-        <p style="background-color: #fcffc7; text-align: center;"><b>Valor do ingresso(sem desconto) = R$33,00</b></p>
+        <p style="color: #fcffc7; text-align: center;"><b>Valor do ingresso(sem desconto) = R$33,00</b></p>
+        <p style="color: #fcffc7; text-align: center;"><b>Valor da pipoca = R$15,00</b></p>
         <br>
         <form action="Controller.php" method="post" style="text-align: center; color: white;">
             <!-- Nome -->
