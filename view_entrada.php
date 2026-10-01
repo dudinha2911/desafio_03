@@ -38,18 +38,19 @@
             <!-- Idade -->
             <label for="idade">Idade</label>
             <input type="number" id="idade" name="idade" placeholder="Digite sua idade aqui..." required>
-            <br><br><br>
+            <br><br><br><br>
             <!-- Estudante sim / nn -->
             <label>Você é estudante?</label>
             <label for="sim">Sim, sou</label>
             <input type="radio" value="Sim" id="sim" name="pergunta">
             <label for="nao">Não, não sou</label>
             <input type="radio" value="Nao" id="nao" name="pergunta">
-            <br><br><br>
+            <br><br><br><br>
             <!-- Ingressos -->
             <label for="quant">Quantidade de Ingressos</label>
             <input type="number" id="quant" name="quant" placeholder="Digite a quantidade..." required>
             <br><br>
+            <!-- Filmes -->
             <label for="filme">Selecione o filme</label>
             <select name="filme" id="filme" required>
                 <option value="" selected disabled>
@@ -63,6 +64,7 @@
                 <option value="filme6">Viva A Vida É Uma Festa</option>
             </select>
             <br><br>
+            <!-- Pipoca -->
             <label for="quantpipoca">🍿Pipoca🍿</label>
             <input type="number" name="quantpipoca" id="quantidade" placeholder="Quantidade pipoca...">
             <br><br><br>
