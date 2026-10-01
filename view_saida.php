@@ -15,6 +15,7 @@
         <hr>
 </header>
 <main>
+    <br>
     <div style ="text-align: center;">
         <img style="width: 300px; height: 400px;" src="<?= $imagem?>" alt="Imagem do filme">
         <p style= "color: white"><b style="color: #fcffc7;"> Descrição do filme:</b> <?= $descricao ?></p>
